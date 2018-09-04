@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+}
+.step {
+  font-size: 1.15em;
+  text-rendering: optimizeLegibility;
+}
+.step-title {
+  font-size: 1.2em;
+}
+p,
+.sub-step-title {
+  font-size: 1em;
+}
+.translate::before {
+  content: '(';
+}
+.translate::after {
+  content: ')';
+}
+.note {
+  display: block;
+}
+.note::before {
+  display: inline;
+  content: 'Nota:';
+}
+.option {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.option::before {
+  content: '❰';
+}
+.option::after {
+  content: '❱';
+}
