@@ -1,0 +1,106 @@
+Statement:
+Thanks for purchasing from us. Please feel free to contact our service whenever you need help. This manual is applicable for Standard DVR series(8ch), which also works for other channels.
+
+Appearence and Interface Instructions:
+Front-end panel
+Rear panel
+
+Boot up/shut down and user login
+HDD installation(Skip this if you don't need storage):
+Install the HDD:
+Install fixed screw for HDD. HDD data line and power line connection.
+Boot up:
+Connect to power, the indicator turn on, DVR boots up.
+Note 1: Use matched adapter to avoid abnormal situation or damage.
+2: Shut down power switch(some might have power switches)
+Shut down:
+To shut down the device there are soft-off and hard-off.
+soft-off: go to Main Menu - Logout - Shutdown
+hard-off: Plug the power on the rear panel.
+Note 1:Power recovery: When DVR is shut down abnormally, reboot it, all recordings will be saved automatically and restore to the previous status.
+2: Substituir o HDD: Desligue a energia antes de substituir.
+System login:
+When DVR boots up, the user must login and the system provides the corresponding function with the user purview. There are two user sttings. The names are admin, default. Admin is default with no Password protection: If the password is continuously wrong three times, the alarm will start. If the password is continuous wrong five times, the account will be locked. (Throug rebooting or wait half an hour, the account will be unlocked automatically).
+
+Network settings
+Go to Main Menu > System > Network, as follows:
+IP adress: default is 192.168.1.10;
+Subnet Mask: default is 255.255.255.0;
+Gateway: default is 192.168.1.1
+Note: IP adress of the speed dome must share the same network segment with the router and conform to its IP instead of conflicting with other IP to ensure the device access to network; Go to main menu > system > network , select DHCP Enable(Router should enable DHCP).
+
+Record Settings
+DVR must contain HDD, as follows:
+HDD manegement:
+After installing HDD, boot up the DVR, go to main menu > Advanced > Storage to format the HDD. Then set the HDD as read-write.
+Note: At least one read-write disk is needed for normal recording.
+Video settings:
+Go to main menu > record > record conf: >
+Channel: choose the corresponding channel number. Choose the all option to set the entire channels.
+Redundancy: Choose the redundancy function to double backup the file.
+Length: Set the time length of each video file between 1min to 120min. 60 minutes is default value.
+Mode: Set the video state: schedule, manual or stop.
+Configuration: Recordaccording to set video type(common, detection) and time section.
+Manual: Corresponding channel starts recording 24 hours non-stop.
+Stop: Whatever state the cannel is in, the corresponding channel recording stops when stop button is selected.
+Period: Set the time section of common recording, the recording will start only among the set range.
+Record type: set recording type: regular, detection, alarm
+Regular: record according to the set time section. The video file type is "R".
+Detect: Within the set time section, trigger the motion detect, video blind, video loss or abnormal analysis. When above alarm is set as opening recording, the recording detection state is on. The video file type is M.
+Alarm: rigger the external alarm signal in the set time section. When above alarm is set as opening recording, the "detection recording" state is on. The video file type is "A".
+
+Playback
+There are two ways for you to play the video files in the HDD
+1. In the right sortcut menu
+2. Main Menu - Record - Playback
+Note: The HDD which saves the video files must be set as read-write or read-only state.
+Double click the file name to playback the video.
+
+Channel management
+Note: not all models support this function
+Go to main menu - system - Digital - Channel type , configure, you can connect IP camera under pure network or hybrid network.
+Go to main menu - system - Digital - Digital channels to add IP camera to digital channels.
+Enable @: means eanble, settings are effective after enabling
+Channel: Select channel number, to add IP camera.
+Connection Mode: Single connection and multi-connection, multi-connection can connect to several devices, device will be displayed one by one, tour interval can be set, no less than 10s; single channel can only connect to one monitoring device.
+Add: click add, the following interface will be seen:
+search: Search and display the IP address within the same LAN, such as IPC, DVR and NVR. Choose one IP address, device name, type, IP address, port and protocol will be entered automatically.
+Protocol: Support NETTP, ONVIF and all. Default is all.
+ok: Click ok to finish adding, go back to digital channel interface, choose added monitoring device to preview.
+
+Lan access
+When connected to the network, login DVR to start remote monitoring via IE browser
+1 DVR connection:
+Open IE browser, enter IP address, take 192.168.1.10 as an example, input http://192.168.1.10 to connect.
+DVR login
+Enter user name and password.(default user name is admin, no password). Change the administrator password timely after login, as follows:
+Note: Plug-ins need to be installed if you login via IE browser. IE is default to intercept plugin. Please set IE security level. Go to internet option - security - customerized level - activeX - enable them all. Or go to our official website to download and install plugins(www.xmeye.net); Or install IE plugin_V1.1.0.78.exe via CD.
+Mobile access:
+Network environment: wifi, 3g
+Mobile system: Android, Apple
+Software name: VmEyeCloud
+Software Download: Google market, app store
+Note: when the device can access to the public network, you can realise public network monitoring via VmEyeSuper.
+
+Public network access (cloud operation)
+Cloud technology realises one step on the INternet, which greatly facilitates the customers in public network monitoring. For first use, please start here,. If not, just skip.
+1 Pc access:
+Enter http://xmeye.net to login
+Install step by step according to the guides
+Click login to enter cloud service interface, as follows:
+After successful configuration, wherever and whenever you are, as long you can surf the internet, you can get access to the device.
+Pc monitoring: Login
+http://www.xmeye.net;
+Login with user name and password(user: guest password: 123)
+Device list is on the left, click the device the preview.
+Mobile access
+Network environment: wifi, 3g
+mobile system: android, apple
+software name: VmEyeCloud
+Software Download: Google market, app store
+
+Product warranty card
+
+Warranty:
+Warranty period: One year. The warranty card only applies for the products you bought from us.
+Please take cafe of it to get more efficient and better service
