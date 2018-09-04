@@ -7,6 +7,7 @@
 }
 .step-title {
   font-size: 1.2em;
+  background-color: gainsboro;
 }
 p,
 .sub-step-title {
@@ -34,4 +35,11 @@ p,
 }
 .option::after {
   content: '❱';
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
