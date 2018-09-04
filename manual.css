@@ -24,7 +24,7 @@ p,
 }
 .note::before {
   display: inline;
-  content: 'Nota:';
+  content: 'Nota: ';
 }
 .option {
   text-decoration: underline;
